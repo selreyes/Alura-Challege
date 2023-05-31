@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cifrar/Decifrar</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Cifrar/Decifrar</h1>
+      <div class="formulario">
+        <label>
+          <input
+            type="radio"
+            name="option"
+            value="encrypt"
+            checked
+          />
+        Cifrar
+        </label>
+        <label>
+          <input type="radio" name="option" value="decrypt" />
+        Decifrar
+        </label>
+        <br />
+        <input type="text" placeholder="Ingresa Texto" id="input" />
+        <br />
+        <button id="convert">Convertir</button>
+        <button id="copy">Copiar Resultado</button>
+        <br />
+        <input type="text" placeholder="Resultado" id="output" />
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
+
